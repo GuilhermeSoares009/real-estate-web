@@ -1,0 +1,5 @@
+# Raiz do projeto
+apps/public/node_modules/
+apps/public/public/
+apps/public/dist/
+.DS_Store
