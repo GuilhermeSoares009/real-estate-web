@@ -1,15 +1,9 @@
 export default function HomePage() {
-    return (
-        <div>
-            {/* Hero Section */}
-            <section className="hero">
-                <h1>Encontre seu imóvel dos sonhos</h1>
-                {/* Barra de busca */}
-            </section>
-
-            <div className="property-grid">
-                {/* Listagem de imóveis em destaque */}
-            </div>
-        </div>
-    );
+  return (
+    <div className="container mx-auto p-4">
+      <h1 className="text-2xl font-bold mb-4">
+        Encontre Imóveis de Luxo
+      </h1>
+    </div>
+  );
 }
