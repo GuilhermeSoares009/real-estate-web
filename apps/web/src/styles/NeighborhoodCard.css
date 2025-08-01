@@ -1,0 +1,25 @@
+/* apps/web/src/components/NeighborhoodCard.css */
+.neighborhood-card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.neighborhood-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background-color: #e9ecef;
+}
+
+.neighborhood-card h4 {
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.neighborhood-card p {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
